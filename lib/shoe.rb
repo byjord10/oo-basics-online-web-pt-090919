@@ -7,6 +7,7 @@ class Shoe
   end
 
   def condition
-    puts "The Shoe has been repaired"
+    @condiiton = "new"
+    puts "Your shoe is as good as new!"
   end
-end 
+end
